@@ -2,8 +2,6 @@
 # 1000 veces, en una única línea, con espacios intermedios
 
 
-contador = 0
 palabra = str(input("Ingrese una palabra:\n "))
-while contador != 1000:
-    contador += 1
+for _ in range(1000):
     print(palabra, end=" ")
