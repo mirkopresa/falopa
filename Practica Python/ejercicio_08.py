@@ -3,9 +3,6 @@
 # C x ( 1 + X / 100)^n
 
 
-def retorno(monto: int, tasa: int, año: int) -> int:
+def retorno(monto: int, tasa: int, año: int) -> float:
     total = monto * (1 + tasa / 100) ** año
     return total
-
-
-print(retorno(300000, 50, 4))

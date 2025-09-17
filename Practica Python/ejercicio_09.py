@@ -2,11 +2,7 @@
 # al usuario la cantidad de pesos inicial, la tasa de interés y el número de años y muestre el monto
 # final a obtener
 
-
-def retorno(monto: int, tasa: int, año: int) -> int:
-    total = monto * (1 + tasa / 100) ** año
-    return total
-
+from ejercicio_08 import retorno
 
 monto = int(input("Ingrese un monto: "))
 tasa = int(input("Ingrese una tasa: "))
