@@ -3,7 +3,7 @@
 # el resultado junto con el número de orden correspondiente.
 
 
-def factorial(numero: int):
+def factorial(numero: int) -> int:
     factorial = 1
     for x in range(1, numero + 1):
         factorial *= x

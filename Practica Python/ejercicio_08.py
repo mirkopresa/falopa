@@ -3,7 +3,7 @@
 # C x ( 1 + X / 100)^n
 
 
-def retorno(monto: int, tasa: int, año: int):
+def retorno(monto: int, tasa: int, año: int) -> int:
     total = monto * (1 + tasa / 100) ** año
     return total
 

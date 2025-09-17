@@ -2,7 +2,7 @@
 # que pida al usuario dos números, y luego muestre el producto.
 
 
-def producto(numero_1: int, numero_2: int):
+def producto(numero_1: int, numero_2: int) -> int:
     resultado = numero_1 * numero_2
     return resultado
 

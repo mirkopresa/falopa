@@ -15,7 +15,7 @@ for x in range(1, numero + 1):
     resultado += x
     print(f"{x} - {resultado}")
 
-# otra manera 
+# otra manera
 """
 for x in range(1, numero + 1):
     resultado = x * (x + 1) / 2

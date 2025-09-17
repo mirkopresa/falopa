@@ -1,7 +1,7 @@
 # Escribir una función que, dado un número entero 𝑛, permita calcular su factorial.
 
 
-def factorial(numero: int):
+def factorial(numero: int) -> int:
     factorial = 1
     for x in range(1, numero + 1):
         factorial *= x

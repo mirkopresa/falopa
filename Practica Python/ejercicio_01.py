@@ -1,7 +1,7 @@
 # Escribir una función que reciba dos números y devuelva su producto
 
 
-def product(numero_1: int, numero_2: int):
+def product(numero_1: int, numero_2: int) -> int:
     producto = numero_1 * numero_2
     return producto
 
